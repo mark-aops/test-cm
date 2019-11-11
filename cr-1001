@@ -1,0 +1,19 @@
+# CR-1001 - Firewall Change
+## TW-APP-FW Alias Update
+Test change to update the FW alias for tw-app-fw01 & fw02
+
+Change:
+1. Login to FW01 and run backup
+2. Go to Firewall-->Aliases
+3. Edit Omega Alias and add IP: 10.0.0.1
+4. Save and Apply
+
+Rollback Plan:
+1. Restore backup
+
+Schedule:
+Tues 12th November 2019 10:00am
+
+Approvals:
+Ops:  Rick
+Business:  Peter
